@@ -1,10 +1,10 @@
-** Como instalar ( Cargo.toml )
+== Como instalar ( Cargo.toml )
 ```Crate
 [dependencies]
 validador_crate_rust = "0.1.0"
 ```
 
-*** Como utilizar
+== Como utilizar
 ```rust
 use validador_crate_rust as vd;
 use std::io;

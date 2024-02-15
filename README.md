@@ -1,7 +1,7 @@
 Como instalar ( Cargo.toml )
 ```Crate
 [dependencies]
-validador_crate_rust = "0.1.0"
+validador_crate_rust = "1.0.0"
 ```
 
 Como utilizar
@@ -24,7 +24,8 @@ fn main() {
         }
     }
 
-    let validado: bool = vd::validar_cpf(cpf.as_str());
+    let validado: bool = vd::validador::cpf(cpf.as_str());
+    // let validado: bool = vd::validador::cnpj(cnpj.as_str()); ou CNPJ
 
     if validado {
         println!("O CPF é valido")

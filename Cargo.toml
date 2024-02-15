@@ -1,8 +1,12 @@
 [package]
 name = "validador_crate_rust"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Danilo <danilo@torneseumprogramador.com.br>"]
+description = "Aula de como criar uma Crate"
+licence = "Free"
+repository = "https://github.com/torneseumprogramador/validador-crate-rust"
+documentation = "https://github.com/torneseumprogramador/validador-crate-rust/blob/main/README.md"
+homepage = "https://github.com/torneseumprogramador/validador-crate-rust"
 
 [dependencies]
